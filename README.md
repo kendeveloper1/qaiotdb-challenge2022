@@ -10,7 +10,7 @@ Follow the steps to fulfill the challenge:
     git@github.com:XavierVal/qaiotdb-challenge2022.git
 
 
-### Read carefully this file to understand the purpose correctly
+### Carefully read this file to understand the purpose correctly
     
 All task resolutions must be uploaded to a Git repository. Public or private. 
 Add a readme file describing the configuration environment and the basics of the test.
