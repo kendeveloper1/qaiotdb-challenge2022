@@ -1,0 +1,37 @@
+pipeline{
+    agent{
+         node{
+         }
+
+    environment{
+    }
+    stages{
+            stage('Git configuration'){
+                steps{
+
+                }
+           }
+           stage('environments'){
+                steps{
+
+                }
+           }
+
+           stage('unit tests'){
+                steps{
+                sh'''
+                pip install requirements.txt
+                '''
+                }
+           }
+           stage('API tests'){
+                steps{
+                sh'''
+                npm cache clean --force
+                 npm install -g newman
+                 newman run path of colections
+                 '''
+                }
+           }
+    }
+}
